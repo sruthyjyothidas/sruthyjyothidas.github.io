@@ -63,3 +63,32 @@ body {
   /* margin-top: 1px; */
   text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
 }
+
+section h2 {
+  position: relative;
+  top: 50px;       
+  font-size: clamp(2rem, 5vw, 3rem); /* scales on screen */
+  color: rgb(26, 87, 122);                       /* adjust to your background */
+  text-align: center;                 /* horizontal center */
+  margin: 0 auto 20px auto;           /* top 0, bottom 20px, auto left/right */
+  max-width: 80%;                     /* prevent stretching on large screens */
+}
+
+section p {
+  position: relative;
+  top: 50px;   
+  font-size: clamp(1rem, 2.5vw, 1.5rem); 
+  color: rgb(130, 77, 33);
+  text-align: center;
+  margin: 0 auto 30px auto;           /* top 0, bottom 30px, auto left/right */
+  max-width: 70%;                     /* narrower than h2 for readability */
+  line-height: 1.5;                   /* better spacing for paragraphs */
+}
+section p span {
+  display: inline-block; /* allows spacing and line breaks */
+  margin: 0 10px;        /* horizontal spacing between items */
+  padding: 5px 15px;    /* padding for better clickability */
+  background-color: rgba(255, 255, 255, 0.8); /* semi-transparent background */
+  border-radius: 20px;   /* rounded corners */
+  font-weight: bold;     /* make it stand out */
+}
