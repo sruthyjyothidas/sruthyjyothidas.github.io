@@ -95,7 +95,7 @@ section p span {
 
 .photo-credit {
   position: absolute;
-  bottom: 50px;
+  bottom: 10px;
   top: 800px; 
   right: 12px;
   font-size: 0.9rem;
