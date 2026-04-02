@@ -92,3 +92,24 @@ section p span {
   border-radius: 20px;   /* rounded corners */
   font-weight: bold;     /* make it stand out */
 }
+
+.photo-credit {
+  position: absolute;
+  bottom: 50px;
+  top: 790px; 
+  right: 5px;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.8);
+  background-color: rgba(0,0,0,0.4);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.photo-credit a {
+  color: #ffcc00;        /* highlight the link */
+  text-decoration: underline;
+}
+
+.photo-credit a:hover {
+  color: #ffffff;
+}
