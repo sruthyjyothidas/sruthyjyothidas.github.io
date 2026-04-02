@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: center;   /* horizontal center */
   align-items: center;       /* vertical center */
-  height: calc(100vh - 50px); /* adjust 50px to your nav height */
+  height: calc(100vh - 40px); /* adjust 50px to your nav height */
   background-image: url('IMG_1996.JPG'); /* put your image filename here */
   background-size: cover;       /* cover entire container */
   background-position: center;  center the image
