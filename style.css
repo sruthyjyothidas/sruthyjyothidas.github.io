@@ -97,19 +97,19 @@ section p span {
   position: absolute;
   bottom: 50px;
   top: 1000px; 
-  right: 5px;
+  right: 12px;
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.8);
-  background-color: rgba(0,0,0,0.4);
-  padding: 2px 4px;
-  border-radius: 4px;
+  /* color: rgba(255,255,255,0.8); */
+  /* background-color: rgba(0,0,0,0.4); */
+  /* padding: 2px 4px; */
+  /* border-radius: 4px; */
 }
 
-.photo-credit a {
-  color: #ffcc00;        /* highlight the link */
-  text-decoration: underline;
-}
+/* .photo-credit a { */
+  /* color: #ffcc00;        /* highlight the link */ */
+  /* text-decoration: underline; */
+/* } */
 
-.photo-credit a:hover {
-  color: #ffffff;
-}
+/* .photo-credit a:hover { */
+  /* color: #ffffff; */
+/* } */
